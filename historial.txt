@@ -200,91 +200,10 @@
   200  rm -rf vacio.txt 
   201  clear
   202  poweroff
-  203  ls -l
-  204  history
-  205  clear
-  206  cd ISO/
-  207  mkdir libro
-  208  cd libro/
-  209  git clone hhtps://github.com/AgustinPrf/libro-git.git
-  210  git clone https://github.com/AgustinPrf/libro-git.git
-  211  ls
-  212  cd libro-git/
-  213  ls -la
-  214  git reset --hard 48ed8
-  215  git remote remove origin
-  216  cat indice.txt 
-  217  nano indice.txt 
-  218  git status
-  219  reset tail indice.txt 
-  220  git reset tail indice.txt 
-  221  git reset TAIL indice.txt 
-  222  git reset indice.txt 
-  223  git status
-  224  git reset HEAD indice.txt
-  225  git status
-  226  git reset --hard indice.txt
-  227  git reset master indice.txt
-  228  git status
-  229  git reset HEAD 
-  230  git reset HEAD -M
-  231  git reset HEAD M
-  232  git status
-  233  git reset M
-  234  git reset --hard HEAD indice.txt
-  235  git reset --hard M
-  236  clear
-  237  git status
-  238  git reset HEAD M
-  239  git reset
-  240  git status
-  241  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
-  242  git status
-  243  clear
-  244  nano indice.txt 
-  245  git add indice.txt 
-  246  git status
-  247  git reset HEAD
-  248  git status
-  249  git reset HEAD --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
-  250  git reset HEAD --hard 
-  251  git status
-  252  cat indice.txt 
-  253  git status
-  254  clear
-  255  nano indice.txt 
-  256  git add indice.txt  
-  257  git status
-  258  git reset HEAD indice.txt
-  259  git status
-  260  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
-  261  clear
-  262  git status
-  263  nano indice.txt 
-  264  rm -rf capitulos/capitulo3.txt 
-  265  tocuh capitulos/capitulo4.txt
-  266  touch capitulos/capitulo4.txt
-  267  git add
-  268  git add .
-  269  git status
-  270  git reset HEAD .
-  271  git status
-  272  git log
-  273  commit -m "No se"
-  274  git commit -m "No se"
-  275  git reset --hard HEAD
-  276  git status
-  277  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
-  278  clear
-  279  git status
-  280  git log
-  281  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
-  282  git status
-  283  cd..
-  284  cd ..
-  285  ls
-  286  cd proyecto_linux/
-  287  cd ..
-  288  git clone https://github.com/Lorealex/history.git
-  289  cd history/
-  290  history >> historial.txt
+  203  ls
+  204  cd ISO/
+  205  ls
+  206  clear
+  207  cd history/
+  208  ls
+  209  history > historial.txt 
