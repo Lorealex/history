@@ -1,0 +1,290 @@
+    1  nano scriptgt.sh
+    2  chmod 777 scriptgt.sh
+    3  ./scriptgt.sh 
+    4  ./scriptgt.sh 3 4
+    5  nano scriptgt.sh
+    6  ./scriptgt.sh 3 4
+    7  clear
+    8  ./scriptgt.sh 3 4
+    9  ./scriptgt.sh 7 9
+   10  ./scriptgt.sh 9 7
+   11  clear
+   12  ipconfig
+   13  sudo apt-get install net-tools
+   14  nano xd
+   15  ls
+   16  apt-get install git
+   17  sudo apt-get install git
+   18  exit
+   19  apt-get install git
+   20  exit
+   21  ifconfig
+   22  service ssh status
+   23  sudo apt-get install ssh.service
+   24  sudo apt-get install ssh-server
+   25  sudo apt-get install openssh-server
+   26  git remote add origin https://github.com/Lorealex/proyecto_linux.git
+   27  clear
+   28  openssh-server service status
+   29  service ssh status
+   30  clear
+   31  sudo apt-get install git
+   32  git --version
+   33  ls
+   34  mkdir ISO
+   35  mkdir ISO/git
+   36  apt-get asciipatrol
+   37  sudo apt-get install asciipatrol
+   38  sudo apt-get install ascii-patrol
+   39  cd ISO/git/
+   40  git clone https://github.com/Lorealex/ISO.git
+   41  ls
+   42  ls ISO/
+   43  ls -la  ISO/
+   44  git status
+   45  git -status
+   46  git status
+   47  touch nuevo.txt
+   48  git status
+   49  echo si y tal >> nuevo.txt 
+   50  git -status
+   51  cd ..
+   52  ls
+   53  git status
+   54  ls -la
+   55  pwd
+   56  cd git/
+   57  ls -la
+   58  cd ISO/
+   59  git status
+   60  cp ../nuevo.txt 
+   61  cp ../nuevo.txt nuevo.txt
+   62  git status
+   63  git add
+   64  git add nuevo.txt 
+   65  git commit -n "No se"
+   66  git commit -n 
+   67  git config --global alejandrojaencrespo@gmail.com 
+   68  git config --global Lorealex.alejandrojaencrespo@gmail.com 
+   69  git commit -n 
+   70  git config --global alex.alejandrojaencrespo@gmail.com 
+   71  git commit -n 
+   72  git commit -m "Va el archivo nuevo" 
+   73  clear
+   74  git commit -m "Va el archivo nuevo" 
+   75  git config --global alejandrojaencrespo@gmail.com "alex"
+   76  git config --global alex.alejandrojaencrespo@gmail.com "alex"
+   77  git config --global alex.Lorealex "Alex"
+   78  git commit -m "Va el archivo nuevo" 
+   79  git cofig --global credential-helper cache
+   80  git config --global credential-helper cache
+   81  git config --global credential.helper cache
+   82  git commit -m "Va el archivo nuevo" 
+   83  git config --global user.name "alejandrojaencrespo@gmail.com"
+   84  git commit -m "Va el archivo nuevo" 
+   85  git config --global user.email "alejandrojaencrespo@gmail.com"
+   86  git commit -m "Va el archivo nuevo" 
+   87  git push master
+   88  git push origin master
+   89  git status
+   90  cd ..
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  move Descargas/SCRIPTS.zip ISO/git/ISO/
+   97  mv Descargas/SCRIPTS.zip ISO/git/ISO/
+   98  cd ISO/git/ISO/
+   99  cd SCRIPTS/
+  100  mv * ../
+  101  cd ..
+  102  rm -rf SCRIPTS/
+  103  cd ../..
+  104  cd proyecto_linux/
+  105  git status
+  106  git init
+  107  git status
+  108  git remote add origin https://github.com/Lorealex/proyecto_linux.git
+  109  git pull origin master
+  110  git status
+  111  ls
+  112  git push
+  113  git push origin master
+  114  git status
+  115  ls -la
+  116  git status
+  117  git add .
+  118  git status
+  119  git commit -m "Subidadeproyecto"
+  120  git push
+  121  git push origin master
+  122  git status
+  123  ls -la
+  124  service ssh status
+  125  service telnet status
+  126  clear
+  127  service ssh status
+  128  ifconfig
+  129  sudo nano /etc/network/interfaces
+  130  ifconfig
+  131  sudo down enp0s3
+  132  sudo ifdown enp0s3
+  133  sudo ifup enp0s3
+  134  ifconfig
+  135  sudo ifdown enp0s3
+  136  ifconfig
+  137  sudo ifup enp0s3
+  138  tty
+  139  exit
+  140  xxd -l /dev/sdb
+  141  sudo xxd -l /dev/sdb
+  142  ifconfig
+  143  sudo nano /etc/network/interfaces
+  144  sudo ifdown enp0s8
+  145  sudo ifup enp0s8
+  146  ifconfig
+  147  clear
+  148  service ssh status
+  149  clear
+  150  echo "Hola" > 
+  151  clear
+  152  tty
+  153  echo "Hola" > /dev/ttyN
+  154  clear
+  155  sudo echo "Hola" > /dev/ttyN
+  156  clear
+  157  tty
+  158  sudo echo "Hola" > /dev/pts/0
+  159  clear
+  160  fdisk -l
+  161  sudo fdisk -l
+  162  sudo fdisk -l /dev/sda
+  163  clear
+  164  sudo fdisk -l /dev/sda
+  165  xxd /dev/sda
+  166  sudo xxd /dev/sda
+  167  sudo xxd /dev/sda/03015eb0
+  168  sudo xxd 03015eb0
+  169  sudo xxd /dev/sda 03015eb0
+  170  sudo fdisk /dev/sda
+  171  sudo fdisk -l /dev/sda
+  172  man xxd
+  173  man xxd | grep hexa
+  174  man xxd | grep hex
+  175  man xxd
+  176  odd
+  177  apt-get install odd
+  178  sudo apt-get install odd
+  179  clear
+  180  man xxd
+  181  xxd /dev/sda
+  182  sudo xxd /dev/sda
+  183  sudo fdisk -l /dev/sda
+  184  sudo xxd -l 512 /dev/sda
+  185  clear
+  186  head -5 /dev/urandom > test1.txt
+  187  cat test1.txt 
+  188  nano test1.txt 
+  189  cat /dev/urandom > test1.txt 
+  190  rm -rf test1.txt
+  191  clear
+  192  dd
+  193  clear 
+  194  dd if=/dev/zero of=vacio count=1024 bs=1024
+  195  cat vacio 
+  196  rm -rf vacio 
+  197  dd if=/dev/zero of=vacio.txt count=1024 bs=1024
+  198  cat vacio 
+  199  cat vacio.txt 
+  200  rm -rf vacio.txt 
+  201  clear
+  202  poweroff
+  203  ls -l
+  204  history
+  205  clear
+  206  cd ISO/
+  207  mkdir libro
+  208  cd libro/
+  209  git clone hhtps://github.com/AgustinPrf/libro-git.git
+  210  git clone https://github.com/AgustinPrf/libro-git.git
+  211  ls
+  212  cd libro-git/
+  213  ls -la
+  214  git reset --hard 48ed8
+  215  git remote remove origin
+  216  cat indice.txt 
+  217  nano indice.txt 
+  218  git status
+  219  reset tail indice.txt 
+  220  git reset tail indice.txt 
+  221  git reset TAIL indice.txt 
+  222  git reset indice.txt 
+  223  git status
+  224  git reset HEAD indice.txt
+  225  git status
+  226  git reset --hard indice.txt
+  227  git reset master indice.txt
+  228  git status
+  229  git reset HEAD 
+  230  git reset HEAD -M
+  231  git reset HEAD M
+  232  git status
+  233  git reset M
+  234  git reset --hard HEAD indice.txt
+  235  git reset --hard M
+  236  clear
+  237  git status
+  238  git reset HEAD M
+  239  git reset
+  240  git status
+  241  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
+  242  git status
+  243  clear
+  244  nano indice.txt 
+  245  git add indice.txt 
+  246  git status
+  247  git reset HEAD
+  248  git status
+  249  git reset HEAD --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
+  250  git reset HEAD --hard 
+  251  git status
+  252  cat indice.txt 
+  253  git status
+  254  clear
+  255  nano indice.txt 
+  256  git add indice.txt  
+  257  git status
+  258  git reset HEAD indice.txt
+  259  git status
+  260  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
+  261  clear
+  262  git status
+  263  nano indice.txt 
+  264  rm -rf capitulos/capitulo3.txt 
+  265  tocuh capitulos/capitulo4.txt
+  266  touch capitulos/capitulo4.txt
+  267  git add
+  268  git add .
+  269  git status
+  270  git reset HEAD .
+  271  git status
+  272  git log
+  273  commit -m "No se"
+  274  git commit -m "No se"
+  275  git reset --hard HEAD
+  276  git status
+  277  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
+  278  clear
+  279  git status
+  280  git log
+  281  git reset --hard 48ed886424d57097faecbcdda5d8c97f66406d2b
+  282  git status
+  283  cd..
+  284  cd ..
+  285  ls
+  286  cd proyecto_linux/
+  287  cd ..
+  288  git clone https://github.com/Lorealex/history.git
+  289  cd history/
+  290  history >> historial.txt
